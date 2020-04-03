@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $('#dataTable').DataTable({
     "ajax": {
-      "url": "http://bot.chuviettay.com/api/v1/posts/comment",
+      "url": "https://bot.chuviettay.com/api/v1/posts/comment",
       "type": "GET",
     },
     columns :[
